@@ -1,0 +1,37 @@
+/* CSS to style the counter and buttons */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  #counter {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .counter-button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text color */
+    border: none; /* Remove button border */
+    padding: 10px 20px; /* Padding for text inside the button */
+    margin-right: 10px; /* Margin between buttons */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    border-radius: 5px; /* Add border radius for rounded corners */
+  }
+  
+  .counter-button:hover {
+    background-color: #45a049; /* Darker green background on hover */
+  }
+  
+  .reset-button {
+    background-color: #f44336; /* Red background */
+    color: white; /* White text color */
+    border: none; /* Remove button border */
+    padding: 10px 20px; /* Padding for text inside the button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    border-radius: 5px; /* Add border radius for rounded corners */
+  }
+  
+  .reset-button:hover {
+    background-color: #c62828; /* Darker red background on hover */
+  }
+  
